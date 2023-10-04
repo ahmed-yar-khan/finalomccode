@@ -10,21 +10,27 @@ function SplideComponent() {
   const videoRef = useRef(null);
   const video = [
     {
-      name: process.env.PUBLIC_URL + '/assets/video/ads.mp4',
+      name: process.env.PUBLIC_URL + "/assets/video/ads.mp4",
+      poster : "/assets/video/Capture.PNG"
     },
     {
-      name: process.env.PUBLIC_URL + '/assets/video/ads1.mp4',
+      name: process.env.PUBLIC_URL + "/assets/video/ads1.mp4",
+      poster : "/assets/video/Capture1.PNG"
     },
     {
-      name: process.env.PUBLIC_URL + '/assets/video/ads2.mp4',
+      name: process.env.PUBLIC_URL + "/assets/video/ads2.mp4",
+      poster : "/assets/video/Capture2.PNG"
     },
     {
-      name: process.env.PUBLIC_URL + '/assets/video/ads3.mp4',
+      name: process.env.PUBLIC_URL + "/assets/video/ads3.mp4",
+      poster : "/assets/video/Capture3.PNG"
     },
     {
-      name: process.env.PUBLIC_URL + '/assets/video/ads4.mp4',
+      name: process.env.PUBLIC_URL + "/assets/video/ads4.mp4",
+      poster : "/assets/video/Capture4.PNG"
     },
   ];
+
 
 
   useEffect(() => {
@@ -101,7 +107,7 @@ function SplideComponent() {
                             key={index}
                             loading="lazy"
                             preload="none" 
-                            poster="/assets/backgroundimg/videoad.jpg"
+                            poster={item.poster}
                           />
                         </div>
                       </div>

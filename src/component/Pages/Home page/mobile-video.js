@@ -22,18 +22,23 @@ export const MobileVideo = () => {
   const video = [
     {
       name: process.env.PUBLIC_URL + "/assets/video/ads.mp4",
+      poster : "/assets/video/Capture.PNG"
     },
     {
       name: process.env.PUBLIC_URL + "/assets/video/ads1.mp4",
+      poster : "/assets/video/Capture1.PNG"
     },
     {
       name: process.env.PUBLIC_URL + "/assets/video/ads2.mp4",
+      poster : "/assets/video/Capture2.PNG"
     },
     {
       name: process.env.PUBLIC_URL + "/assets/video/ads3.mp4",
+      poster : "/assets/video/Capture3.PNG"
     },
     {
       name: process.env.PUBLIC_URL + "/assets/video/ads4.mp4",
+      poster : "/assets/video/Capture4.PNG"
     },
   ];
 
@@ -85,7 +90,7 @@ export const MobileVideo = () => {
                       data-wf-ignore="true"
                       ref={(el) => (videoRef.current[index] = el)}
                       src={item.name}
-                      poster="/assets/backgroundimg/videoad.jpg"
+                      poster={item.poster}
                       style={{ height: "100%", borderRadius: "20px" }}
                       loading="lazy"
                       key={index}

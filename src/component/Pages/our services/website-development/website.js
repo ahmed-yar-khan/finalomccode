@@ -107,6 +107,7 @@ const WebDesgin = () => {
                             src='/assets/video/computer-white-background.mp4'
                             loading="lazy"
                             preload="none"
+                            poster="/assets/video/computer.PNG"
                         />
                     </div>
                     <div className="section2-web-soloution-content">
@@ -174,6 +175,7 @@ const WebDesgin = () => {
                             src="/assets/video/clock-black-background.mp4"
                             loading="lazy"
                             preload="none"
+                            poster="/assets/video/clockweb.PNG"
                         />
                     </div>
                 </div>

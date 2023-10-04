@@ -118,6 +118,7 @@ const Home = () => {
             src={process.env.PUBLIC_URL + '/assets/video/marketing_-_22191 (720p).mp4'}
             loading="lazy"
             preload="none"
+            poster="/assets/video/home.PNG"
           />
         </div>
       </section>
