@@ -98,7 +98,7 @@ const SystemIntegration = () => {
                   <div className="service_icon">
                     <img className='icon-img-si-card' src='/assets/icon/video (1).png' alt='video icon' loading="lazy" />
                   </div>
-                  <h3 className='heading-all-component-font-style '>Automated Data Integration Expertise</h3>
+                  <h3 className='heading-all-component-font-style '>Data Integration Expertise</h3>
                   <p className='paragrapg-all-component-font-family'>
                   Our services encompass automated integration for applications, file formats, and databases, guaranteeing data integrity. We seamlessly integrate various data types, employ best practices, and implement proven version control protocols for optimal efficiency.
                   </p>
@@ -119,7 +119,7 @@ const SystemIntegration = () => {
                   <div className="service_icon">
                     <img className='icon-img-si-card' src='/assets/icon/video (2).png' alt='video icon' loading="lazy" />
                   </div>
-                  <h3 className='heading-all-component-font-style '>Efficient API Integration Solutions</h3>
+                  <h3 className='heading-all-component-font-style '>Efficient API Integration</h3>
                   <p className='paragrapg-all-component-font-family'>
                   Our API integration services follow best practices, seamlessly incorporating custom, open-source, and third-party APIs to enhance web service functionality and ensure data format synchronization across applications.
                   </p>
@@ -145,7 +145,7 @@ const SystemIntegration = () => {
                     <img className='icon-img-si-card' src='/assets/icon/video (3).png' alt='video icon' loading="lazy" />
 
                   </div>
-                  <h3 className='heading-all-component-font-style '>EAI Solutions for Seamless Enterprise Communication</h3>
+                  <h3 className='heading-all-component-font-style '> Seamless Enterprise Communication</h3>
                   <p className='paragrapg-all-component-font-family'>
                   Our specialists offer Enterprise Application Integration (EAI) solutions, enabling smooth communication among vital business platforms
                   </p>
@@ -167,7 +167,7 @@ const SystemIntegration = () => {
                     <img className='icon-img-si-card' src='/assets/icon/video (4).png' alt='video icon' loading="lazy" />
 
                   </div>
-                  <h3 className='heading-all-component-font-style '>End-to-End System Integration for Seamless Operations</h3>
+                  <h3 className='heading-all-component-font-style '>End-to-End System Integration </h3>
                   <p className='paragrapg-all-component-font-family'>
                   We offer comprehensive system integration services, including integration with existing IT infrastructures and technologies, ensuring streamlined and coordinated operational processes.
                   </p>

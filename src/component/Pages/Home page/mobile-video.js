@@ -14,7 +14,7 @@ export const MobileVideo = () => {
     if (inViewVideo) {
       videoRef.current.forEach((video) => {
         video.classList.add("animate-slide-right");
-        video.play(); // Start playing the video when it's in view
+        video.play(); 
       });
     }
   }, [inViewVideo]);
